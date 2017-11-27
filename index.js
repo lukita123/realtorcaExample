@@ -7,7 +7,9 @@ let opts = {
   LatitudeMin: 43.57601549736786,
   LatitudeMax: 43.602250137362276,
   PriceMin: 100000,
-  PriceMax: 410000
+  PriceMax: 410000,
+  SortBy: 6,
+  SortOrder: "D"
 };
 
 console.log( realtor.buildUrl(opts) );
